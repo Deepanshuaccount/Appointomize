@@ -99,9 +99,9 @@ margin-top: 7rem;
   }
  
   .header-container{
-    background-color: #000;
+    background-color: #f7f9ff;
     padding: 20px 0px 20px;
-    color: #fff;
+    color: #000;
     width: 100%;
     text-align: center;
 }
@@ -113,11 +113,12 @@ margin-top: 7rem;
 .header-container p{
     font-family: 'Gilroy-Regular', sans-serif;
     font-size: 27px;
-    color: #CBD5E1;
+    color: #000;
     margin-top: 0;
 }
 .img-wrap{
     width: 40%;
+    padding-top: 40px;
 }
 .content-wrap h2{
     font-size: 48px;
@@ -130,13 +131,14 @@ margin-top: 7rem;
     text-align: left;
     line-height: 34px;
     font-weight: 400;
-    color: #fff;
+    color: #000;
 }
 .recon-img{
     width: 100%;
    border-radius: 30px;
+   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
    /* border-bottom-right-radius: 30px; */
-   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   /* box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px; */
    display: block;
 }
 .recon-img2{
@@ -157,8 +159,8 @@ margin-top: 7rem;
     flex-wrap: wrap;
     align-items: center;
     width: 100%;
-    color: #fff;
-    background-color: #000;
+    color: #000;
+    background-color: #f7f9ff;
     gap: 70px;
     padding-bottom: 30px;
     position: relative;

@@ -1,0 +1,26 @@
+.main-salon-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+}
+.salon-cards-wrap{
+    width: 26%;
+
+}
+.salon-card{
+    display: block;
+    width: 100%;
+    border-radius: 10px;
+}
+.salon-card-heading{
+    position: relative;
+    bottom: 43px;
+    left: 12px;
+    font-size: 16px;
+    background-color: #fff;
+    padding: 8px;
+    border-radius: 10px;
+}

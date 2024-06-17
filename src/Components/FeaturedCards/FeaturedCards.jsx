@@ -1,9 +1,9 @@
 import React from 'react'
 import '../FeaturedCards/featurecard.css';
-import Salon from '../../assets/cloud1.jpg';
-import NailSalon from '../../assets/Appointments.jpg';
-import PetSalon from '../../assets/Report1.jpg';
-import ClientManagement from '../../assets/client1.jpg';
+import Salon from '../../assets/cloudlight2.jpg';
+import NailSalon from '../../assets/appointmentlight.jpg';
+import PetSalon from '../../assets/Reportlight2.jpg';
+import ClientManagement from '../../assets/clientlight2.jpg';
 const FeaturedCards = () => {
   const featuredCards = [
     {

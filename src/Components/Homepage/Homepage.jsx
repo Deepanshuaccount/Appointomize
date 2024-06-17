@@ -25,19 +25,19 @@ const Homepage = () => {
                     }}
                 onInit={(typewriter) => {
                     typewriter
-                        .typeString('<strong style="color:#ecd512">Beauty Salon')
+                        .typeString('<strong style="color:#2dd8ff;">Beauty Salon')
                         .pauseFor(300)
                         .deleteChars(24)
-                        .typeString('<strong style="color:#ecd512">Nail Salon')
+                        .typeString('<strong style="color:#2dd8ff">Nail Salon')
                         .pauseFor(300)
                         .deleteChars(24)
-                        .typeString('<strong style="color:#ecd512">Pet Salon')
+                        .typeString('<strong style="color:#2dd8ff">Pet Salon')
                         .pauseFor(600)
                         .deleteChars(24)
-                        .typeString('<strong style="color:#ecd512">Wellness Center')
+                        .typeString('<strong style="color:#2dd8ff">Wellness Center')
                         .pauseFor(600)
                         .deleteChars(24)
-                        .typeString('<strong style="color:#ecd512">Cosmetic Clinic')
+                        .typeString('<strong style="color:#2dd8ff">Cosmetic Clinic')
                         .pauseFor(600)
                         .start();
                 }}

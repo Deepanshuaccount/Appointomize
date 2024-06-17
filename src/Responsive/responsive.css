@@ -6,7 +6,7 @@
     width: 100% !important;
   }
   .wrap-homepage-content {
-    width: 58%;
+    width: 87%;
   }
 }
 @media screen and (min-width: 1200px) and (max-width: 1599px) {
@@ -31,7 +31,7 @@
     font-size: 48px;
   }
   .header-container p {
-    color: #cbd5e1;
+    color: #000;
     font-size: 27px !important;
   }
 
@@ -54,7 +54,8 @@
     position: relative;
   }
   .overlay-bg {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgb(47 96 228 / 23%);
+    /* background: rgba(0, 0, 0, 0.5); */
     position: absolute;
     content: "";
     width: 100%;
@@ -97,7 +98,6 @@
     padding: 12px 16px;
     cursor: pointer;
     color: #fff;
-    background-color: #3e3e3f;
     font-size: 16px;
     border-radius: 5px;
     font-weight: bolder;
@@ -210,7 +210,6 @@
     align-items: center;
     width: 100%;
     position: relative;
-    height: 800px;
     z-index: 5;
     background-color: #020617;
   }
@@ -219,14 +218,9 @@
     height: 400px;
     text-align: center;
     margin-top: 50px;
-    border-radius: 13px;
-    padding: 30 30px;
     /* border: 1px solid #fff; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     z-index: 10;
     /* position: relative; */
-    color: #fff;
   }
   .news-letter h2 {
     font-size: 48px;
@@ -291,7 +285,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
     height: 350px;
     width: 100%;
   }
@@ -323,7 +316,7 @@
 
   .reserved-text {
     text-align: center;
-    color: #78716c;
+    color: #fff;
     padding-top: 20px;
     font-size: 12px;
     font-family: "Nunito", sans-serif;
@@ -461,7 +454,6 @@
     padding: 12px 16px;
     cursor: pointer;
     color: #fff;
-    background-color: #3e3e3f;
     font-size: 16px;
     border-radius: 5px;
     font-weight: bolder;
@@ -523,9 +515,7 @@
 
   /* saloon css starts here*/
   .header-container {
-    background-color: #000;
     padding: 50px 0px 50px;
-    color: #fff;
     width: 100%;
     text-align: center;
   }
@@ -548,8 +538,6 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    color: #fff;
-    background-color: #000;
     gap: 70px;
     padding-bottom: 30px;
     position: relative;
@@ -622,7 +610,7 @@
     align-items: center;
     width: 100%;
     position: relative;
-    height: 800px;
+    /* height: 800px; */
     z-index: 5;
     padding-top: 4rem;
     background-color: #020617;
@@ -633,14 +621,8 @@
     height: 400px;
     text-align: center;
     margin-top: 50px;
-    border-radius: 13px;
-    padding: 30 30px;
-    /* border: 1px solid #fff; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-
     z-index: 10;
     /* position: relative; */
-    color: #fff;
   }
   .news-letter h2 {
     font-size: 48px;
@@ -685,7 +667,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
     height: 350px;
     width: 100%;
   }
@@ -717,7 +698,7 @@
 
   .reserved-text {
     text-align: center;
-    color: #78716c;
+    color: #fff;
     padding-top: 20px;
     font-size: 12px;
     font-family: "Nunito", sans-serif;
@@ -955,7 +936,6 @@
     padding: 16px 28px;
     cursor: pointer;
     color: #fff;
-    background-color: #3e3e3f;
     font-size: 16px;
     border-radius: 5px;
     font-weight: bolder;
@@ -1111,17 +1091,13 @@
     position: relative;
   }
   .news-letter {
-    width: 775px !important;
-    height: 375px;
+    width: 100% !important;
+    /* height: 375px; */
     position: absolute;
-    left: 30px;
     top: 20%;
-    border-radius: 13px;
     padding-top: 82px;
     padding: 30 30px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 10;
-    color: #fff;
   }
   .news-letter h2 {
     font-size: 48px !important;
@@ -1162,7 +1138,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
     height: 350px;
     width: 100%;
   }
@@ -1194,7 +1169,7 @@
 
   .reserved-text {
     text-align: center;
-    color: #78716c;
+    color: #fff;
     padding-top: 20px;
     font-size: 12px;
     font-family: "Nunito", sans-serif;
@@ -1450,7 +1425,6 @@
     padding: 14px 24px;
     cursor: pointer;
     color: #fff;
-    background-color: #3e3e3f;
     font-size: 16px;
     margin-top: 20px;
     border-radius: 5px;
@@ -1585,19 +1559,16 @@
     align-items: center;
     width: 100%;
     position: relative;
-    height: 650px;
+    /* height: 650px; */
     z-index: 5;
     background-color: #020617;
     position: relative;
   }
   .news-letter {
-    width: 600px !important;
+    width: 100% !important;
     height: 345px !important;
-    border-radius: 13px;
     padding-top: 25px;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 10;
-    color: #fff;
   }
   .news-letter h2 {
     font-size: 30px !important;
@@ -1645,7 +1616,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
     height: 350px;
     width: 100%;
   }
@@ -1677,7 +1647,7 @@
 
   .reserved-text {
     text-align: center;
-    color: #78716c;
+    color: #fff;
     padding-top: 20px;
     font-size: 12px;
     font-family: "Nunito", sans-serif;
@@ -1754,7 +1724,6 @@
   }
   .salon-operation-img {
     width: 100% !important;
-    height: 633px !important;
     border-radius: 10px;
   }
   .operation-img-wrap {
@@ -1804,7 +1773,9 @@
 .contact-text{
   width: 80%;
 }
-
+.main-salon-operations{
+  padding:0px 0px 20px!important;
+}
 .contact-text h2{
   font-size: 36px;
   font-family: "Roboto", sans-serif;
@@ -1897,7 +1868,9 @@
     text-decoration: none;
     color: #000;
   }
-
+  .section-wrap{
+    padding-bottom: 10px;
+  }
   /*           Home page css starts here            */
   .Main-homepage {
     display: flex;
@@ -1940,7 +1913,7 @@
     position: relative;
   }
   .wrap-homepage-content {
-    margin-left: 20px;
+    /* margin-left: 20px; */
   }
   .contact {
     width: 280px;
@@ -1974,7 +1947,6 @@
     padding: 14px 24px;
     cursor: pointer;
     color: #fff;
-    background-color: #3e3e3f;
     font-size: 16px;
     border-radius: 5px;
     font-weight: bolder;
@@ -2042,7 +2014,7 @@
 
   /* saloon css starts here*/
   .img-wrap {
-    width: 85%;
+    width: 90%;
   }
   .content-wrap {
     width: 75%;
@@ -2051,7 +2023,7 @@
     padding: 20px 0px 20px;
   }
   .header-container h1 {
-    font-size: 36px;
+    font-size: 26px;
   }
   .header-container p {
     font-size: 16px;
@@ -2141,24 +2113,19 @@
     align-items: center;
     width: 100%;
     position: relative;
-    height: 485px !important;
+    /* height: 485px !important; */
     z-index: 5;
-    padding-bottom: 60px;
-    background-color: #020617;
+  
   }
   .news-letter {
-    width: 320px !important;
+    width: 100% !important;
     height: 350px !important;
     padding-top: 50px;
     text-align: center;
     margin-top: 50px;
-    border-radius: 13px;
     padding: 30 30px;
-    /* border: 1px solid #fff; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
     z-index: 10;
     /* position: relative; */
-    color: #fff;
   }
   .news-letter h2 {
     font-size: 30px !important;
@@ -2199,7 +2166,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
     height: 350px;
     width: 100%;
   }
@@ -2232,12 +2198,12 @@
     width: 90%;
   }
   .footer-wrap ul a {
-    color: #78716c;
+    color: #fff;
     text-decoration: none;
   }
   .reserved-text {
     text-align: center;
-    color: #78716c;
+    color: #fff;
     padding-top: 20px;
     font-size: 12px;
     font-family: "Nunito", sans-serif;
@@ -2249,16 +2215,7 @@
     font-size: 36px !important;
     padding-top: 50px !important;
   }
-  .main-salon-operations {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    flex-direction: column;
-    align-items: center;
-    background-color: #000;
-    width: 100%;
-    padding: 50px 0px 20px;
-  }
+ 
   .salon-operations-content {
     width: 100% !important;
     text-align: left;
@@ -2404,5 +2361,17 @@
 .contact-text h2{
   font-size: 36px;
   font-family: "Roboto", sans-serif;
+}
+.main-salon-cards{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  align-items: center;
+  width: 100%;
+}
+.salon-cards-wrap{
+  width: 92%!important;
 }
 }

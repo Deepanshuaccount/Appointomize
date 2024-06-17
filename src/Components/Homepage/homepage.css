@@ -5,7 +5,7 @@
     width: 100%;
     }
 .homepage{
-    background-image: url(../../assets/home2.jpg);
+    background-image: url(../../assets/homepage5.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
@@ -16,7 +16,7 @@
    
 }
 .overlay-bg {
-    background: rgba(0, 0, 0, 0.5);
+    background: rgba(7, 21, 61, 0.23);
     position: absolute;
     content: "";
     width: 100%;
@@ -59,7 +59,7 @@
     padding: 12px 16px;
     cursor: pointer;
     color: #fff;
-    background-color: #3E3E3F;
+    background-color: #3266cb;
     font-size: 16px;
     border-radius: 5px;
     font-weight: bolder;

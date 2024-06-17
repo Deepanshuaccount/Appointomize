@@ -3,7 +3,7 @@
     justify-content: center;
     flex-wrap: wrap;
     align-items: center;
-    background-color: #000;
+    background-color: #f7f9ff;
     width: 100%;
     padding: 50px 0px 20px;
 }
@@ -11,13 +11,13 @@
 width: 45%;
 }
 .salon-operations-header h6{
-    color: #fff;
+    color: #000;
     font-size: 18px;
     font-family: "Roboto", sans-serif;
     margin: 0;
 }
 .salon-operations-header h2{
-    color: #fff;
+    color: #000;
     font-size: 36px;
     font-family: "Roboto", sans-serif;
     
@@ -43,7 +43,7 @@ width: 45%;
     text-align: left;
 }
 .salon-operations-content p{
-    color: #CBD5E1;
+    color: #000;
     font-size: 16px;
     line-height: 29px;
     font-family: "Roboto", sans-serif;

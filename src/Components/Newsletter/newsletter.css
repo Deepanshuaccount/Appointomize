@@ -1,31 +1,31 @@
 .main-news-letter{
     display: flex;
-   background-color: #000;
+   background-color: #fff;
     background-size: cover;
     justify-content: center;
     align-items: center;
     width: 100%;
     position: relative;
-    height: 500px;
+    /* height: 500px; */
     z-index: 5;
     /* background-color: #020617; */
 }
 .news-letter{
     /* background-color: #201D1C; */
-    background-image: url(../../assets/NewsletterBg1.jpg);
-    width: 1200px;
-    height: 400px;
+    background-image: url(../../assets/Homepage2.jpg);
+    width: 100%;
+    height: 448px;
     background-size: cover;
     text-align: center;
-    margin-top: 50px;
-    border-radius: 13px;
+    padding-top: 30px;
+    /* border-radius: 13px; */
     padding: 30 30px;
     /* border: 1px solid #fff; */
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    /* box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px; */
    
     z-index: 10;
     /* position: relative; */
-    color: #fff;
+    color: #000;
 }
 .news-letter h2{
     font-size: 48px;
@@ -34,7 +34,7 @@
 .news-letter p{
     font-family: "Nunito", sans-serif;
     font-size: 18px;
-    color: #CBD5E1;
+    color: #000;
     font-weight: bold;
     
 }

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #000;
+    background-color: #6495ED;
     height: 350px;
     width: 100%;    
 }
@@ -36,7 +36,7 @@
 }
 .reserved-text{
     text-align: center;
-    color: #78716c;
+    color: #fff;
     padding-top: 20px;
     font-size: 12px;
     font-family: "Nunito", sans-serif;
@@ -46,6 +46,6 @@
     width: 98%;
 }
 .footer-wrap ul a{
-    color: #78716c;
+    color: #fff;
     text-decoration: none;
 }
