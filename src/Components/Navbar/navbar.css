@@ -1,0 +1,62 @@
+.Main-navbar{
+display: flex;
+justify-content: center;
+align-items: center;
+width: 100%;
+/* border: 1px solid #000; */
+}
+.navbar{
+  
+    border: 1px solid gray;
+    height: 5vh;
+    width: 100%;
+    background-color: #F8FAFC;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    padding: 20px;
+    gap: 20px;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+}
+.browser-ui-nav-control {
+    height: .8rem;
+    width: .8rem;
+    border-radius: var(--border-radius-full, 9999px);
+    --tw-bg-opacity: 1;
+    background-color: rgb(203 213 225 / var(--tw-bg-opacity));
+}
+.link-bar{
+    border: 1px solid #CBD5E1;
+   width: 400px;
+   height: 38px;
+    border-radius: 8px;
+}
+.link-bar-btn{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    color:#94a3b8;
+    font-size: 14px;
+    margin: 10px 0px 0px 6px;
+    background-color: #FFFFFF;
+
+}
+.customize-domain-btn{
+    display: flex;
+    justify-items: center;
+    gap: 10px;
+    border: none;
+    outline: none;
+    font-size: 14px;
+    color: #FB016E;
+    background-color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+}
+.customize-domain-btn:hover{
+    color: #FEC32F;
+    text-decoration: underline;
+}

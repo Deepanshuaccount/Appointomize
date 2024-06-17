@@ -1,0 +1,94 @@
+body{
+  padding: 0;
+  margin: 0;
+  font-family: var(--font-family-sans, ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji");
+ overflow-x: hidden;
+}
+.wrapper{
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.get-started-btn{
+  padding: 12px 16px;
+  cursor: pointer;
+  color: #fff;
+  background-color: #3B3B3BE6;
+  font-size: 16px;
+  font-family: "Roboto", sans-serif;
+  border-radius: 5px;
+  font-weight: bolder;
+  border: none;
+  margin-left: 15px;
+  outline: none;
+  
+
+}
+/* Header css starts here */
+.main-header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  height: 80px;
+  top: 0px;
+  width: 100%;
+  z-index: 8;
+}
+ul.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-list li a {
+  text-decoration: none;
+  color: #000;
+}
+
+.appointomize-icon{
+  padding: 10px;
+  display: flex;
+  align-items: center;
+  width:32px;
+  cursor: pointer;
+  height: 32px;
+}
+.appointomize-icon span{
+  color: #fff;
+  font-size: 24px;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  
+}
+.menubar{
+ display: none;
+}
+
+.wrap-header{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+  margin-right: 35px;
+}
+.wrap-header a{
+  text-decoration: none;
+}
+.home-items{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  
+  
+  
+}
+.home-items li{
+  font-size: 18px;
+  font-family: "Roboto", sans-serif;
+  color: #fff;
+  list-style: none;
+  font-weight: bolder;
+  cursor: pointer;
+ 
+}
+.home-items li a{
+  text-decoration: none;
+  color: #fff;
+}
