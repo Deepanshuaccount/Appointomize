@@ -1,8 +1,8 @@
 import React from "react";
 import "../SalonOperations/salonoperations.css";
-import Salon1 from '../../assets/homepage.jpg';
+import Salon1 from '../../assets/homepage1.jpg';
 import Salon2 from '../../assets/Reportingimg.jpg';
-import Salon3 from '../../assets/homepage3.jpg';
+import Salon3 from '../../assets/homepage32.jpg';
 const Salonoperations = () => {
   return (
     <div className="main-salon-operations">

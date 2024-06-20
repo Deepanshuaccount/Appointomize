@@ -1,5 +1,5 @@
-import SaloonSeat from '../../assets/Homebanner3.jpg';
-import Shop from '../../assets/home3.jpg';
+import SaloonSeat from '../../assets/Homebanner33.jpg';
+import Shop from '../../assets/home33.jpg';
 import Cutting from '../../assets/Reports.jpg';
 
 

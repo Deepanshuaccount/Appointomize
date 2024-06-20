@@ -129,7 +129,7 @@
      display: flex;
      justify-content: space-between;
      align-items: center;
-     background-image: url(../../assets/contactusbg.jpg);
+     background-image: url(../../assets/contactusbg1.jpg);
      background-size: cover;
      background-position: center center;
      background-repeat: no-repeat;
@@ -173,6 +173,11 @@
    .contact-text h4{
     margin: 0;
     line-height: 30px;
+   }
+   .contact-sub-heading{
+    font-family: "Nunito", sans-serif;
+    font: 36px;
+    font-weight: bolder;
    }
    
  

@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #6495ED;
+    background-color: #000;
     height: 350px;
     width: 100%;    
 }
@@ -43,7 +43,7 @@
 
 }
 .footer-wrap{
-    width: 98%;
+    width: 100%;
 }
 .footer-wrap ul a{
     color: #fff;

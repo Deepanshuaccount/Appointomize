@@ -1,10 +1,10 @@
 import React from 'react';
 import '../SalonCard/saloncard.css';
-import NailSalon from '../../assets/nails.jpg';
+import NailSalon from '../../assets/nails1.jpg';
 import Beauty from '../../assets/peeling.jpg';
-import Pet from '../../assets/pet-salon.jpg';
-import Wellness from '../../assets/salon.jpg';
-import Cosmetic from '../../assets/homebanner.jpg';
+import Pet from '../../assets/petSalon11.jpg';
+import Wellness from '../../assets/wellness center.jpg';
+import Cosmetic from '../../assets/cosmeticclinic1.jpg';
 import Barbershop from '../../assets/shop.jpeg';
 
 const Saloncards = () => {

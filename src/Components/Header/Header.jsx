@@ -16,7 +16,7 @@ const Header = () => {
    <div className='header'>
    
     <ul className='home-items'>
-      <li>  <Link to="/">Homepage</Link></li>
+      <li>  <Link to="/">Home</Link></li>
         <li><Link to="/features">Features</Link></li>
          <li> <Link to="/pricing"> Pricing</Link></li>
     </ul>

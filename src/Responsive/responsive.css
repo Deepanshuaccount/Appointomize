@@ -8,6 +8,14 @@
   .wrap-homepage-content {
     width: 87%;
   }
+    /* Terms Conditions page css starts here */
+    .wrap-terms h2 {
+      position: absolute;
+      top: 94px!important;
+      bottom: 0;
+      left: 10px!important;
+      font-size: 38px!important;
+    }
 }
 @media screen and (min-width: 1200px) and (max-width: 1599px) {
   .main-header {
@@ -270,7 +278,7 @@
   .contact {
     display: flex;
     justify-content: center;
-    width: 470px!important;
+    width: 470px !important;
     padding: 15px;
     margin-right: 40px;
     background-color: #fff;
@@ -342,15 +350,15 @@
     align-items: center;
     justify-content: center;
     gap: 40px;
-    width: 100%!important;
-    padding: 50px 0px 50px 0px;
+    width: 100% !important;
+    /* padding: 50px 0px 50px 0px; */
   }
   .cards-content {
     display: block;
     padding: 30px;
     width: 250px !important;
     height: 267px;
-    margin-left: 30px!important;
+    margin-left: 30px !important;
     background-color: transparent;
     box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, 0.6));
     background: rgba(242, 235, 235, 0.2);
@@ -358,10 +366,10 @@
   }
   .slider-wrap {
     margin: 0 auto;
-    padding-top: 70px;
-    width: 95%!important;
+    padding-top: 0px;
+    width: 95% !important;
   }
-  
+
   .featured-heading {
     width: 70%;
     text-align: center;
@@ -371,12 +379,28 @@
     width: 100%;
     padding: 10px 0px 20px !important;
   }
-  .operation-img-wrap{
-    width: 75%!important;
+  .operation-img-wrap {
+    width: 75% !important;
   }
-  .contact-page{
+  .contact-page {
     width: 33%;
   }
+   /* Privacy polict css starts here */
+   .wrap-privacy-policy h2 {
+    position: absolute;
+    top: 94px!important;
+    bottom: 0;
+    left: 16px!important;
+    font-size: 38px!important;
+  }
+    /* Terms Conditions page css starts here */
+    .wrap-terms h2 {
+      position: absolute;
+      top: 94px!important;
+      bottom: 0;
+      left: 10px!important;
+      font-size: 36px!important;
+    }
 }
 
 @media screen and (min-width: 992px) and (max-width: 1199px) {
@@ -719,7 +743,7 @@
     width: 76% !important;
   }
   .feature-cards {
-    display: flex!important;
+    display: flex !important;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -728,29 +752,29 @@
     padding: 50px 0px 50px 0px;
   }
   .featured-card-img {
-    width: 675px!important;
-    height: 470px!important;
+    width: 675px !important;
+    height: 470px !important;
     border-radius: 10px;
   }
   .featured-card-wrap {
     width: 57% !important;
-    font-size: 20px!important;
+    font-size: 20px !important;
   }
   .featured-card-wrap h4 {
-    font-size: 36px!important;
+    font-size: 36px !important;
   }
   .featured-heading {
     margin: 0 auto;
     text-align: center;
     width: 70%;
   }
-  .featured-heading h2{
+  .featured-heading h2 {
     font-size: 48px !important;
   }
   .featured-heading p {
     padding: 0px 30px 0px 30px;
-    font-size: 22px!important;
-}
+    font-size: 22px !important;
+  }
   .salon-operation-img-wrap {
     width: 85% !important;
   }
@@ -768,10 +792,10 @@
     border-radius: 10px;
   }
   .salon-operations-header h6 {
-    font-size: 36px!important;
+    font-size: 36px !important;
   }
   .salon-operations-content p {
-    font-size: 20px!important;
+    font-size: 20px !important;
   }
   .operation-img-wrap {
     display: flex;
@@ -781,30 +805,46 @@
     width: 100%;
   }
   .operation-img {
-    width: 443px!important;
+    width: 443px !important;
     border-radius: 10px;
   }
-   /* //Pricing page css start here */
+  /* //Pricing page css start here */
   .contactpage-bg {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-  
+
     height: 100%;
   }
   .contact-page {
     width: 75%;
     padding: 50px 0px 0px 50px;
-}
-.contact-text{
-  width: 80%;
-}
-.contact-text h2{
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-}
+  }
+  .contact-text {
+    width: 80%;
+  }
+  .contact-text h2 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+  }
+   /* Privacy polict css starts here */
+   .wrap-privacy-policy h2 {
+    position: absolute;
+    top: 94px!important;
+    bottom: 0;
+    left: 16px!important;
+    font-size: 36px!important;
+  }
+    /* Terms Conditions page css starts here */
+    .wrap-terms h2 {
+      position: absolute;
+      top: 94px!important;
+      bottom: 0;
+      left: 10px!important;
+      font-size: 36px!important;
+    }
 }
 
 @media screen and (min-width: 768px) and (max-width: 991px) {
@@ -1197,15 +1237,15 @@
     padding: 50px 0px 50px 0px;
   }
   .slider-wrap {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
     padding-top: 70px;
-    width: 90%!important;
+    width: 90% !important;
   }
   .featured-cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%!important;
+    width: 100% !important;
     position: relative;
     z-index: 1;
   }
@@ -1214,7 +1254,7 @@
     padding: 30px;
     width: 250px !important;
     height: 267px;
-    margin-left: 30px!important;
+    margin-left: 30px !important;
     background-color: transparent;
     box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, 0.6));
     background: rgba(242, 235, 235, 0.2);
@@ -1222,26 +1262,26 @@
   }
   .featured-card-wrap {
     width: 68% !important;
-    font-size:20px!important;
+    font-size: 20px !important;
   }
-  .featured-card-wrap h4{
-    font-size: 30px!important;
+  .featured-card-wrap h4 {
+    font-size: 30px !important;
   }
   .featured-heading p {
     color: #fff;
-    font-size: 21px!important;
+    font-size: 21px !important;
     padding: 0px 63px 0px 60px;
     font-family: "Roboto", sans-serif;
-}
-  .featured-card-img{
-    width: 500px!important;
-    height:380px!important ;
+  }
+  .featured-card-img {
+    width: 500px !important;
+    height: 380px !important ;
   }
   .salon-operations-header h6 {
-    font-size: 30px!important;
+    font-size: 30px !important;
   }
   .salon-operations-header p {
-    font-size: 20px!important;
+    font-size: 20px !important;
   }
   .salon-operation-img-wrap {
     width: 75% !important;
@@ -1263,30 +1303,46 @@
     width: 310px !important;
     height: 263px;
   }
-  .operation-img-wrap{
-    width: 100%!important;
+  .operation-img-wrap {
+    width: 100% !important;
   }
-   /* //Pricing page css start here */
-   .contactpage-bg {
+  /* //Pricing page css start here */
+  .contactpage-bg {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
     width: 100%;
-  
+
     height: 100%;
   }
   .contact-page {
     width: 75%;
     padding: 50px 0px 0px 50px;
-}
-.contact-text{
-  width: 80%;
-}
-.contact-text h2{
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-}
+  }
+  .contact-text {
+    width: 80%;
+  }
+  .contact-text h2 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+  }
+   /* Privacy polict css starts here */
+   .wrap-privacy-policy h2 {
+    position: absolute;
+    top: 94px!important;
+    bottom: 0;
+    left: 16px!important;
+    font-size: 36px!important;
+  }
+    /* Terms Conditions page css starts here */
+    .wrap-terms h2 {
+      position: absolute;
+      top: 94px!important;
+      bottom: 0;
+      left: 10px!important;
+      font-size: 30px!important;
+    }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -1375,7 +1431,7 @@
     position: relative;
   }
   .wrap-contact {
-    padding: 50px 0px 0px 0px!important;
+    padding: 50px 0px 0px 0px !important;
   }
   .wrap-homepage-content {
     margin-right: 50px;
@@ -1671,11 +1727,11 @@
     width: 78% !important;
   }
   .feature-cards {
-    display: flex!important;
-    flex-direction: column!important;
-    justify-content: center!important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
     align-items: center;
-    width: 100%!important;
+    width: 100% !important;
     flex-wrap: wrap;
   }
   .cards-content {
@@ -1683,43 +1739,39 @@
     padding: 30px;
     width: 250px !important;
     height: 267px;
-    margin-left: 6px!important;
+    margin-left: 6px !important;
   }
- 
+
   .featured-cards {
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 100%!important;
+    width: 100% !important;
     position: relative;
     z-index: 1;
   }
   .featured-heading p {
-    font-size: 18px!important;
+    font-size: 18px !important;
     padding: 0px 50px 0px 50px;
   }
   .slider-wrap {
-  margin: 0 auto;
-  padding-top: 70px;
-  width: 95%;
-}
-  .featured-card-wrap h4{
-    font-size: 30px!important;
-   
+    margin: 0 auto;
+    padding-top: 70px;
+    width: 95%;
   }
-  .featured-card-wrap p{
-    font-size: 20px!important;
-    margin: 0!important;
-   
+  .featured-card-wrap h4 {
+    font-size: 30px !important;
+  }
+  .featured-card-wrap p {
+    font-size: 20px !important;
+    margin: 0 !important;
   }
   .featured-card-wrap {
     width: 82% !important;
-   
-   
   }
   .featured-card-img {
-    width: 100%!important;
-    height: 326px!important;
+    width: 100% !important;
+    height: 326px !important;
     border-radius: 10px;
   }
   .salon-operation-img {
@@ -1727,15 +1779,15 @@
     border-radius: 10px;
   }
   .operation-img-wrap {
-    display: flex!important;
+    display: flex !important;
     flex-direction: column;
-    justify-content: center!important;
+    justify-content: center !important;
     align-items: center;
-    width: 95%!important;
+    width: 95% !important;
     padding: 50px 10px 50px 10px !important;
   }
-  .operation-img{
-    width: 100%!important;
+  .operation-img {
+    width: 100% !important;
   }
   .salon-operation-img-wrap {
     width: 100% !important;
@@ -1753,7 +1805,7 @@
     background-color: #000;
   }
   .slider-wrap {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
     padding-top: 70px;
     width: 90% !important;
   }
@@ -1763,39 +1815,55 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-  
+
     height: 100%;
   }
   .contact-page {
     width: 82%;
-  
-}
-.contact-text{
-  width: 80%;
-}
-.main-salon-operations{
-  padding:0px 0px 20px!important;
-}
-.contact-text h2{
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-}
-.input-box {
-  padding: 10px 20px;
-  width: 350px!important;
-}
-.form-rat-text {
-  line-height: 53px;
-}
-.contact {
-  display: flex;
-  justify-content: center;
-  width: 400px;
-  padding: 16px;
-  background-color: #fff;
-  border-radius: 26px;
-  box-shadow: 0px 0px 29px 0px #00000024;
-}
+  }
+  .contact-text {
+    width: 80%;
+  }
+  .main-salon-operations {
+    padding: 0px 0px 20px !important;
+  }
+  .contact-text h2 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+  }
+  .input-box {
+    padding: 10px 20px;
+    width: 350px !important;
+  }
+  .form-rat-text {
+    line-height: 53px;
+  }
+  .contact {
+    display: flex;
+    justify-content: center;
+    width: 400px;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 26px;
+    box-shadow: 0px 0px 29px 0px #00000024;
+  }
+
+  /* Privacy polict css starts here */
+  .wrap-privacy-policy h2 {
+    position: absolute;
+    top: 94px!important;
+    bottom: 0;
+    left: 16px!important;
+    font-size: 36px!important;
+  }
+    /* Terms Conditions page css starts here */
+    .wrap-terms h2 {
+      position: absolute;
+      top: 94px!important;
+      bottom: 0;
+      left: 10px!important;
+      font-size: 30px!important;
+    }
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -1868,7 +1936,7 @@
     text-decoration: none;
     color: #000;
   }
-  .section-wrap{
+  .section-wrap {
     padding-bottom: 10px;
   }
   /*           Home page css starts here            */
@@ -1906,7 +1974,7 @@
     width: 100%;
     margin: 50px 0px 50px 0px;
   }
-  
+
   .homepage-content {
     margin-top: 7rem;
     z-index: 1;
@@ -2115,7 +2183,6 @@
     position: relative;
     /* height: 485px !important; */
     z-index: 5;
-  
   }
   .news-letter {
     width: 100% !important;
@@ -2176,7 +2243,10 @@
     display: flex;
     list-style: none;
     justify-content: center;
-    gap: 30px;
+    align-items: center;
+    flex-direction: column;
+    gap: 18px;
+    padding-top: 20px;
     padding-bottom: 30px;
     font-size: 14px;
     font-family: "Roboto", sans-serif;
@@ -2215,7 +2285,7 @@
     font-size: 36px !important;
     padding-top: 50px !important;
   }
- 
+
   .salon-operations-content {
     width: 100% !important;
     text-align: left;
@@ -2226,12 +2296,12 @@
     align-items: center;
     justify-content: center;
     padding: 30px 10px 0px 10px;
-    width: 95%!important;
+    width: 95% !important;
   }
   .operation-img {
-    width: 100%!important;
+    width: 100% !important;
     border-radius: 10px;
-}
+  }
   .salon-operation-img-wrap {
     width: 100% !important;
   }
@@ -2256,7 +2326,7 @@
     font-size: 18px !important;
   }
   .featured-card-img {
-    width: 100%!important;
+    width: 100% !important;
     border-radius: 10px;
   }
   .slick-prev,
@@ -2264,7 +2334,7 @@
     display: none !important;
   }
   .slider-wrap {
-    margin: 0 auto!important;
+    margin: 0 auto !important;
     padding-top: 70px;
     width: 100% !important;
   }
@@ -2277,11 +2347,11 @@
     font-size: 18px;
   }
   .feature-cards {
-    display: flex!important;
-    flex-direction: column!important;
-    justify-content: center!important;
-    align-items: center!important;
-    width: 100%!important;
+    display: flex !important;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    width: 100% !important;
     flex-wrap: wrap;
   }
   .features-cards {
@@ -2297,8 +2367,8 @@
     display: block;
     padding: 20px;
     width: 100% !important;
-    height: 245px!important;
-    margin-left: 0px!important;
+    height: 245px !important;
+    margin-left: 0px !important;
     background-color: transparent;
     box-shadow: var(--shd, 0 1px 4px rgba(0, 0, 0, 0.6));
     background: rgba(242, 235, 235, 0.2);
@@ -2307,19 +2377,19 @@
   .slick-track {
     position: relative;
     top: 0;
-    left: 42px!important;
+    left: 42px !important;
     display: block;
     margin-left: auto;
     margin-right: auto;
-}
+  }
   .featured-heading h2 {
     font-size: 18px;
   }
   .featured-heading p {
-    font-size: 18px!important;
-    padding:0px 20px 0px 20px;
+    font-size: 18px !important;
+    padding: 0px 20px 0px 20px;
   }
-  
+
   .salon-operations-header {
     width: 80% !important;
   }
@@ -2342,7 +2412,7 @@
     align-items: center;
     flex-direction: column;
     width: 100%;
-  
+
     height: 100%;
   }
   .form-rat-text {
@@ -2350,28 +2420,48 @@
   }
   .contact-page {
     width: 80%;
-    padding-right: 45px;
-}
-.contact-text{
-  width: 80%;
-}
-.contact-text p{
-  line-height: 30px;
-}
-.contact-text h2{
-  font-size: 36px;
-  font-family: "Roboto", sans-serif;
-}
-.main-salon-cards{
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: column;
-  justify-content: center;
-  gap: 40px;
-  align-items: center;
-  width: 100%;
-}
-.salon-cards-wrap{
-  width: 92%!important;
-}
+    /* padding-right: 45px; */
+  }
+  .contact-text {
+    width: 80%;
+  }
+  .contact-text p {
+    line-height: 30px;
+  }
+  .contact-text h2 {
+    font-size: 36px;
+    font-family: "Roboto", sans-serif;
+  }
+  .main-salon-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    gap: 40px;
+    align-items: center;
+    width: 100%;
+  }
+  .salon-cards-wrap {
+    width: 92% !important;
+  }
+  /* Privacy policy page css starts here */
+  .wrap-privacy-policy h2 {
+    position: absolute;
+    top: 94px!important;
+    bottom: 0;
+    left: 16px!important;
+    font-size: 36px!important;
+  }
+  .wrap-privacy-policy h4{
+    padding: 0!important;
+  }
+   /* Terms Conditions page css starts here */
+   .wrap-terms h2 {
+    position: absolute;
+    top: 94px!important;
+    bottom: 0;
+    left: 10px!important;
+    font-size: 30px!important;
+  }
+ 
 }
