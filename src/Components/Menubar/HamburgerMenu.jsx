@@ -32,7 +32,7 @@ const HamburgerMenu = () => {
         open={Boolean(anchorEl)}
         onClose={handleClose}
       >
-        <MenuItem onClick={handleClose}> <Link to="/">Homepage</Link></MenuItem>
+        <MenuItem onClick={handleClose}> <Link to="/">Home</Link></MenuItem>
         <MenuItem onClick={handleClose}><Link to="/features">Features</Link></MenuItem>
         <MenuItem onClick={handleClose}><Link to="/pricing">Pricing</Link></MenuItem>
       </Menu>

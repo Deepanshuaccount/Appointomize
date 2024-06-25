@@ -15,10 +15,10 @@ const Header = () => {
    </div></Link>
    <div className='header'>
    
-    <ul className='home-items'>
-      <li>  <Link to="/">Home</Link></li>
-        <li><Link to="/features">Features</Link></li>
-         <li> <Link to="/pricing"> Pricing</Link></li>
+    <ul className='home-items nav'>
+      <li className='active'>  <Link to="/">Home</Link></li>
+        <li className='active'><Link to="/features">Features</Link></li>
+         <li className='active'> <Link to="/pricing"> Pricing</Link></li>
     </ul>
    </div>
    <div className='menubar'>

@@ -92,7 +92,86 @@ ul.MuiList-root.MuiList-padding.MuiMenu-list.css-6hp17o-MuiList-root-MuiMenu-lis
   font-weight: bolder;
   cursor: pointer;
 }
-.home-items li a {
+.home-items li a{
+  color:#fff;
   text-decoration: none;
-  color: #fff;
+  transition: color 0.3s;
+  }
+.home-items li a:active{
+color:red;
+}
+/* .home-items li a:visited{
+  color:blue;
+  } */
+  .home-items li.active {
+    color:#000;
+   
+  }
+@keyframes moveInBottom {
+  0% {
+      opacity: 0;
+      transform: translateY(30px);
+  }
+
+  100% {
+      opacity: 1;
+      transform: translateY(0px);
+  }
+}
+.nav * {
+  box-sizing: border-box;
+  transition: all .35s ease;
+}
+
+.nav li {
+  display: inline-block;
+  list-style: outside none none;
+  margin: .5em 1em;
+  padding: 0;
+}
+
+.nav a {
+  padding: .5em .8em;
+  color: rgba(255,255,255);
+  position: relative;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.nav a::before,
+.nav a::after {
+  content: '';
+  height: 14px;
+  width: 14px;
+  position: absolute;
+  transition: all .35s ease;
+  opacity: 0;
+}
+
+.nav a::before {
+  content: '';
+  right: 0;
+  top: 0;
+  border-top: 3px solid #cdd9db;
+  border-right: 3px solid #cdd9db;
+  transform: translate(-100%, 50%);
+}
+
+.nav a:after {
+  content: '';
+  left: 0;
+  bottom: 0;
+  border-bottom: 3px solid #cdd9db;
+  border-left: 3px solid #cdd9db;
+  transform: translate(100%, -50%)
+}
+
+.nav a:hover:before,
+.nav a:hover:after{
+  transform: translate(0,0);
+  opacity: 1;
+}
+
+.nav a:hover {
+  color: #42cadf;
 }

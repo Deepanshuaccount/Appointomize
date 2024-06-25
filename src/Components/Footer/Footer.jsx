@@ -8,7 +8,7 @@ const Footer = () => {
         <div className='footer'>
         <div className='footer-wrap'>
         <ul>
-            <Link to="/" target="_top"> <li>Homepage</li></Link>
+            <Link to="/" target="_top"> <li>Home</li></Link>
             <Link to="/features" target="_top"> <li>Features</li></Link>
             <Link to="/pricing" target="_top"><li>Pricing</li></Link>
             <Link to="/privacypolicy" target="_top"><li>Privacy Policy</li></Link>
