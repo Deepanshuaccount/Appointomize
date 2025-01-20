@@ -84,7 +84,7 @@
     justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    width: 100% !important;
+    width: 95% !important;
   }
   .hexa-contact {
     width: 33%;
@@ -279,7 +279,7 @@
     display: flex;
     justify-content: center;
     width: 470px !important;
-    padding: 15px;
+    padding: 10px 30px 0px 30px;
     margin-right: 40px;
     background-color: #fff;
     border-radius: 26px;
@@ -397,10 +397,10 @@
   }
    /* Privacy polict css starts here */
    .wrap-privacy-policy h2 {
-    position: absolute;
+    /* position: absolute;
     top: 94px!important;
     bottom: 0;
-    left: 16px!important;
+    left: 16px!important; */
     font-size: 38px!important;
   }
     /* Terms Conditions page css starts here */
@@ -841,10 +841,10 @@
   }
    /* Privacy polict css starts here */
    .wrap-privacy-policy h2 {
-    position: absolute;
+    /* position: absolute;
     top: 94px!important;
     bottom: 0;
-    left: 16px!important;
+    left: 16px!important; */
     font-size: 36px!important;
   }
     /* Terms Conditions page css starts here */
@@ -882,8 +882,8 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 260px;
+    height: auto;
   }
   .appointomize-icon span {
     color: #fff;
@@ -1339,10 +1339,10 @@
   }
    /* Privacy polict css starts here */
    .wrap-privacy-policy h2 {
-    position: absolute;
+    /* position: absolute;
     top: 94px!important;
     bottom: 0;
-    left: 16px!important;
+    left: 16px!important; */
     font-size: 36px!important;
   }
     /* Terms Conditions page css starts here */
@@ -1353,6 +1353,12 @@
       left: 10px!important;
       font-size: 30px!important;
     }
+    .email-subscribe {
+      text-align: left;
+      position: relative!important;
+      left: 29px!important;
+      top: 5px!important;
+  }
 }
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
@@ -1377,8 +1383,8 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 238px;
+    height: auto;
   }
   .appointomize-icon span {
     color: #fff;
@@ -1860,10 +1866,10 @@
 
   /* Privacy polict css starts here */
   .wrap-privacy-policy h2 {
-    position: absolute;
+    /* position: absolute;
     top: 94px!important;
     bottom: 0;
-    left: 16px!important;
+    left: 16px!important; */
     font-size: 36px!important;
   }
     /* Terms Conditions page css starts here */
@@ -1874,6 +1880,17 @@
       left: 10px!important;
       font-size: 30px!important;
     }
+    .wrap-subscribe{
+      margin: 0 auto;
+      width: 80%!important;
+  }
+  .email-subscribe {
+    text-align: left;
+    position: relative;
+    bottom: 69px;
+    left: 63px!important;
+}
+  
 }
 
 @media screen and (min-width: 320px) and (max-width: 480px) {
@@ -1907,8 +1924,8 @@
     padding: 10px;
     display: flex;
     align-items: center;
-    width: 35px;
-    height: 35px;
+    width: 210px;
+    height: auto;
   }
   .appointomize-icon span {
     color: #fff;
@@ -1989,9 +2006,6 @@
     margin-top: 7rem;
     z-index: 1;
     position: relative;
-  }
-  .wrap-homepage-content {
-    /* margin-left: 20px; */
   }
   .contact {
     width: 280px;
@@ -2456,22 +2470,33 @@
   }
   /* Privacy policy page css starts here */
   .wrap-privacy-policy h2 {
-    position: absolute;
-    top: 94px!important;
-    bottom: 0;
-    left: 16px!important;
     font-size: 36px!important;
+    /* position: absolute; */
+    /* top: 94px!important; */
+    /* bottom: 0; */
+    /* left: 16px!important; */
+  
   }
   .wrap-privacy-policy h4{
     padding: 0!important;
   }
    /* Terms Conditions page css starts here */
    .wrap-terms h2 {
-    position: absolute;
+    /* position: absolute;
     top: 94px!important;
     bottom: 0;
-    left: 10px!important;
+    left: 10px!important; */
     font-size: 30px!important;
   }
+  .wrap-subscribe{
+    margin: 0 auto;
+    width: 100%!important;
+}
+.email-subscribe {
+  text-align: left;
+  position: relative;
+  left: 65px!important;
+  bottom: 69px!important;
+}
  
 }

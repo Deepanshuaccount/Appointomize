@@ -17,7 +17,14 @@ const Saloncards = () => {
         { image: Barbershop, heading: 'Barber Shop' }
       ];
   return (
+    <>
+
+   
+    <div className='main-card-header'>
+       <h3>Tailored Growth Solutions for Every Business with AppointimiZe</h3>
+    </div>
     <div className='main-salon-cards'>
+   
     {saloncardsdata.map((item,id)=>(
         <>
         <div key={id} className='salon-cards-wrap'>
@@ -33,9 +40,8 @@ const Saloncards = () => {
     </>
     ))}
       
-       
-   
-    </div>
+  </div>
+    </>
   )
 }
 

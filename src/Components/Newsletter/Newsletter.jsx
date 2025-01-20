@@ -1,27 +1,81 @@
-import React from 'react'
+import React from 'react';
 import '../../Components/Newsletter/newsletter.css';
+import { useFormik } from 'formik';
+import * as Yup from 'yup';
+import axios from 'axios';
+
 const Newsletter = () => {
+  // Formik setup
+  const formik = useFormik({
+    initialValues: {
+      Email: '',
+    },
+    validationSchema: Yup.object({
+      Email: Yup.string()
+        .required("Email is required")
+        .email("Invalid email address")
+        .max(255, 'Email cannot exceed 255 characters'),
+    }),
+    onSubmit: async (values, { resetForm }) => {
+      console.log('Form Submitted Successfully with values:', values);
+
+      // Your NoCodeAPI URL to store the email
+      const scriptURL = 'https://v1.nocodeapi.com/appointimize/google_sheets/bYeGuIiNnkpAjTKe?tabId=Sheet1';
+
+      // Format the email data as a 2D array
+      const data = [
+        [values.Email] // Only storing the email
+      ];
+      console.log('Data sent:', data);
+      
+      try {
+        // Sending the email data using Axios
+        await axios({
+          method: 'post',
+          url: scriptURL,
+          data: data // Sending the email data
+        }).then(function (response) {
+          alert('Email submitted successfully!');
+        }).catch(function (error) {
+          alert(`Error sending email: ${error.message}`);
+        });
+
+        resetForm(); // Reset the form after submission
+      } catch (error) {
+        console.error('Error sending email:', error);
+      }
+    },
+  });
+
   return (
     <div className='main-news-letter'>
-    <div className='wrapper'>
+      <div className='wrapper'>
         <div className='news-letter'>
-         <h2>Trusted Salon Management</h2>
-         <p>Ready to get started? <br/>Enter your email to contact us!</p>
-         <input type="email" placeholder='Enter your email...' />
-         <button className='get-started-btn'>Get Started</button>
+          <h2>Ready to get started?</h2>
+          <p>Enter your email to subscribe!</p>
+          <form onSubmit={formik.handleSubmit}>
+            <div className='wrap-subscribe'>
+              <input 
+                type="email" 
+                name="Email"
+                placeholder='Enter your email...' 
+                className='input-box'
+                onChange={formik.handleChange}
+                onBlur={formik.handleBlur}
+                value={formik.values.Email}
+                style={{ marginRight: '10px' }} // Add margin to the input
+              />
+              <button className='get-started-btn' type="submit">Get Started</button>
+              {formik.touched.Email && formik.errors.Email ? (
+              <div className="error-message email-subscribe">{formik.errors.Email}</div> // Show validation error
+            ) : null}
+            </div>
+         
+          </form>
         </div>
-       
-        {/* <div className='black-box'>
-        
-        </div> */}
-        {/* <div className='dots-bg'>
-        <svg class="absolute -ml-3 top-8 left-1/2" width="404" height="392" fill="none" viewBox="0 0 404 392" data-v-159be56a=""><defs data-v-159be56a=""><pattern id="8228f071-bcee-4ec8-905a-2a059a2cc4fb" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse" data-v-159be56a=""><rect x="0" y="0" width="4" height="4" class="text-primary/10 dark:text-primary/30" fill="currentColor" data-v-159be56a=""></rect></pattern></defs><rect width="404" height="392" fill="url(#8228f071-bcee-4ec8-905a-2a059a2cc4fb)" data-v-159be56a=""></rect></svg>
-        </div> */}
+      </div>
     </div>
-   
-
-    </div>
-  )
+  );
 }
 
-export default Newsletter
+export default Newsletter;

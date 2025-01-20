@@ -20,8 +20,8 @@ function App() {
           <Route exact path="/" element={<Home />} />
           <Route path="/features" element={<FeatureSalon />} />
           <Route path="/pricing" element={<Pricing />} />
-          <Route path="/privacypolicy" element={<Privacy />} />
-          {/* <Route path="/terms" element={<TermsUse />} /> */}
+          <Route path="/privacy-policy" element={<Privacy />} />
+          <Route path="/terms-and-conditions" element={<TermsUse />} />
         </Routes>
         <Footer />
       </div>

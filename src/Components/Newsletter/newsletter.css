@@ -14,10 +14,10 @@
     /* background-color: #201D1C; */
     background-image: url(../../assets/Homepage2.jpg);
     width: 100%;
-    height: 448px;
+    height: 350px;
     background-size: cover;
     text-align: center;
-    padding-top: 30px;
+    padding-top: 80px;
     /* border-radius: 13px; */
     padding: 30 30px;
     /* border: 1px solid #fff; */
@@ -30,6 +30,7 @@
 .news-letter h2{
     font-size: 48px;
     font-family: "Roboto", sans-serif;
+    margin: 0;
 }
 .news-letter p{
     font-family: "Nunito", sans-serif;
@@ -48,6 +49,19 @@
     outline: none;
   
 }
+.error-message{
+    color: red;
+}
+.wrap-subscribe{
+    margin: 0 auto;
+    width: 550px;
+}
+.email-subscribe{
+text-align: left;
+position: relative;
+left: 15px;
+}
+
 /* .black-box{ */
     /* background-color: #201D1C; */
     /* width: 1000px;

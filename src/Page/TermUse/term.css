@@ -36,7 +36,8 @@
     -webkit-background-clip: text;
 }
 .terms-content{
-    margin-top: 50px;
+    margin-top: 25px;
+    padding: 50px;
 }
 .terms-content p{
     line-height: 24px;

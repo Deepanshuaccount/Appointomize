@@ -9,7 +9,7 @@ const Pricing = () => {
       <div className="overlay-bg1"></div>
       <div className="contact-text">
         <h2>Contact Us for Custom Pricing</h2>
-        <p>At Appointimize, we offer personalized pricing plans tailored to your business needs. Whether you run a small salon or a large wellness center, we have the perfect solution for you.</p>
+        <p>At AppointimiZe, we offer personalized pricing plans tailored to your business needs. Whether you run a small salon or a large wellness center, we have the perfect solution for you.</p>
         {/* <h3>Why Contact Us?</h3>
         <p><span className="contact-sub-heading">Personalized Solutions:</span> Custom pricing for your specific requirements.<br/>
         <span className="contact-sub-heading"> Expert Consultation:</span> Get the best solutions from our team.<br/>
